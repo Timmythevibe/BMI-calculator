@@ -20,7 +20,7 @@ body {
 }
 
 h1 {
-    color: #3a445a;
+    color: #15264b;
     margin-bottom: 20px;
 }
 
@@ -30,7 +30,7 @@ h1 {
 }
 
 .input-group label {
-    color: #3a445a;
+    color: #15264b;
     display: block;
     margin-bottom: 5px;
 }
@@ -43,7 +43,7 @@ h1 {
 }
 
 button {
-    background-color: #3a445a;
+    background-color: #15264b;
     color: #fff;
     padding: 10px 15px;
     border: none;
@@ -60,7 +60,18 @@ button:hover {
 .result {
     margin-top: 20px;
     font-size: 18px;
-    color: #3a445a;
+}
+
+.result.green {
+    color: green;
+}
+
+.result.yellow {
+    color: rgb(161, 161, 14);
+}
+
+.result.red {
+    color: red;
 }
 
 @media (max-width: 600px) {
