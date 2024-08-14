@@ -25,7 +25,7 @@ h1 {
 }
 
 .input-group {
-    margin-bottom: 15px;
+    padding: 10px;
     text-align: left;
 }
 
@@ -36,8 +36,8 @@ h1 {
 }
 
 .input-group input {
-    width: 100%;
-    padding: 8px;
+    width: 95%;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
@@ -74,16 +74,25 @@ button:hover {
     color: red;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
     .container {
-        padding: 15px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .input-group {
+        padding: 5px;
     }
 
     button {
         font-size: 14px;
+        padding: 8px 10px;
     }
 
     .result {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
